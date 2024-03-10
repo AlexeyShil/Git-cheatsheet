@@ -37,6 +37,7 @@
 #### Прочее  
 - $ git **{имя команды}** --help - подсказки  
 
+Жизненый цикл файла в Git
 ```mermaid
 graph LR;
 untracked --"git add"--> staged+tracked --"git commit"--> tracked;
